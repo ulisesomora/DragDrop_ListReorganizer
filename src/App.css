@@ -1,0 +1,32 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: #141316;
+    color: white;
+}
+
+.App, li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    gap:16px;
+    flex-direction: column;
+}
+
+li{
+    width: 200px;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    user-select: none;
+}
+.dragging, li:hover{
+    background-color: #927EF4;
+}
